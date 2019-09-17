@@ -1,0 +1,129 @@
+.i-type-1950 .cnt-2 {
+  margin-top: 20px;
+}
+.i-type-1950 .line-1 {
+  text-align: center;
+}
+.i-type-1950 .line-2 .title {
+  font-size: 0.875em;
+  color: #777777;
+  font-weight: 400;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.i-type-1950 .nor {
+  cursor: pointer;
+  position: relative;
+}
+.i-type-1950 .nor .sale {
+  font-weight: 400;
+  width: 45px;
+  background: #FF8969;
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+.i-type-1950 .nor .new {
+  z-index: 1;
+  font-weight: 400;
+  width: 45px;
+  background: #5bbcdc;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  text-align: center;
+  color: #fff;
+}
+.i-type-1950 .nor .fade-in {
+  top: 0%;
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+}
+.i-type-1950 .nor .fade-in .product-btn {
+  background: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 70px;
+  font-size: 2.0em;
+  width: 152px;
+  height: 42px;
+  color: black;
+}
+.i-type-1950 .nor .fade-in .product-btn .product-list .fa {
+  position: relative;
+  display: inline-block;
+}
+.i-type-1950 .nor .fade-in .product-btn .fa .tooltiptext {
+  font-size: 0.5em;
+  visibility: hidden;
+  width: 120px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.i-type-1950 .nor .fade-in .product-btn .fa .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.i-type-1950 .nor .fade-in .product-btn .fa:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.i-type-1950 .nor .product-item i {
+  margin-left: 63px;
+}
+.i-type-1950 .nor .product-item a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #666;
+}
+.i-type-1950 .nor .product-item a:hover {
+  text-decoration: none;
+  color: #FF8969;
+}
+.i-type-1950 .nor .price .lineThrough {
+  cursor: text;
+  font-weight: 400;
+  font-size: 13px;
+  margin-right: 10px;
+  color: #888;
+  text-decoration: line-through;
+}
+.i-type-1950 .nor .price .real {
+  cursor: text;
+  font-weight: 600;
+  line-height: 1.45;
+  font-size: 14px;
+  margin-top: 10px;
+  min-height: 22px;
+  color: #333333;
+}
+.i-type-1950 .nor .fade-in img {
+  position: relative;
+}
+.i-type-1950 .nor .fade-in:hover {
+  opacity: 1;
+  -webkit-transition: opacity 1.0s ease-in;
+}

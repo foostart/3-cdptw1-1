@@ -1,0 +1,154 @@
+.type-1961 {
+  margin: 0;
+  padding: 0;
+  font-family: segoe ui light;
+}
+.type-1961 .icon {
+  visibility: hidden;
+}
+.type-1961 .logo {
+  text-align: center;
+  padding-top: 20px;
+}
+.type-1961 a.navbar-brand {
+  padding-left: 170px;
+}
+.type-1961 .trendau {
+  height: 0 !important;
+}
+.type-1961 .select {
+  line-height: 40px;
+  margin-top: 30px;
+  position: relative;
+}
+.type-1961 a {
+  text-decoration: none !important;
+}
+.type-1961 li.zz {
+  width: 19%;
+}
+.type-1961 ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  list-style-type: none;
+}
+.type-1961 .hinhvohang {
+  width: 10%;
+  padding-bottom: 8px;
+  padding-right: 2px;
+}
+.type-1961 .duoi {
+  background: white;
+  margin-top: 50px;
+}
+.type-1961 .ring {
+  font-size: 15px;
+  font-weight: 800;
+  color: black;
+}
+.type-1961 .muitenmenu {
+  margin-left: 10px;
+  opacity: 0.3;
+}
+.type-1961 .Earrings:hover .muitenmenu {
+  opacity: 1;
+}
+.type-1961 .Earrings {
+  position: relative;
+  margin-left: 140px;
+}
+.type-1961 .nutmenu {
+  border: none !important;
+  color: black !important;
+  background: none !important;
+}
+.type-1961 .noidungnho {
+  position: absolute !important;
+  width: 1000px !important;
+  height: 140px;
+  margin-top: 40px !important;
+  z-index: 1;
+  left: 13%;
+  bottom: -150px;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 1px 3px 2px rgba(128,128,128,0.46);
+}
+.type-1961 .Earrings:hover .noidungnho {
+  opacity: 1;
+  visibility: visible;
+}
+.type-1961 #menunho {
+  position: relative;
+}
+.type-1961 .noidungmenunho {
+  position: absolute !important;
+  left: -55%;
+  width: 1000px !important;
+  height: 140px;
+  z-index: 1;
+  background: white;
+  box-shadow: 1px 3px 2px rgba(128,128,128,0.46);
+  opacity: 0;
+  visibility: hidden;
+}
+.type-1961 #menunho:hover .noidungmenunho {
+  opacity: 1;
+  visibility: visible;
+}
+.type-1961 .All {
+  width: 22% !important;
+  margin: 0 14.5px;
+  border-bottom: 1px solid #80808061;
+  padding-left: -10px !important;
+}
+.type-1961 .menu {
+  width: 100% !important;
+  border-top: 1px solid #80808061;
+  margin-right: 13px;
+}
+.type-1961 .Gold,
+.type-1961 .all {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  background: none !important;
+}
+.type-1961 .noidungmenu {
+  height: 400px;
+  background-color: whitesmoke;
+  position: relative;
+  width: 100%;
+}
+.type-1961 .ring:hover {
+  color: gray;
+  background-color: white !important;
+}
+@media handheld,only screen and (max-width: 767px) {
+  .type-1961 .logo img {
+    width: 300px;
+  }
+  .type-1961 .icon {
+    padding: 24px;
+    visibility: visible;
+    background: #fff;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .type-1961 #menuduoi {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display: none;
+  }
+  .type-1961 #menuduoi .ring {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+}
