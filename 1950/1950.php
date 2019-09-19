@@ -22,12 +22,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/1950.css" rel="stylesheet" type="text/css"/>
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-        <script src='js/'></script>
-        <script src="js/975.js"></script>
+         <link href="<?php echo $url_path ?>/css/1950.css" rel="stylesheet" type="text/css"/>
+         <link href="<?php echo $url_path ?>/css/1950.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/1950.js" ></script>
+        <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
+    
     </head>
     <body>
         <?php include $dir_block.'/1950-content.php'; ?>   

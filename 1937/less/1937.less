@@ -1,0 +1,113 @@
+.type-1937{
+    .mgl{margin-left: 0px!important;}
+    .tab-content {
+        h2:hover{
+            transition: 0.5s all;
+            color:#6c757d;
+            cursor:pointer;
+        }
+        img{width: 100%;}
+    }
+    .nav-tabs .nav-link{
+        border: none
+    }
+    .nav .nav-item .nav-link .active{
+        background: #fff;
+        color: #333;
+    }
+    .nav-menu::before{
+        position: absolute;
+        content: '';
+        height: 1px;
+        background-color: #ccc;
+        top: 51px;
+        left: 0;
+        width: 100%;
+    }
+    .nav-menu li a.active:after{
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        width: 100%;
+        right: 0;
+        border-bottom: 2px solid #fcb800;  
+    }
+    
+    .nav-menu{
+        .nav-item a{
+            position: relative;
+            text-transform: capitalize;
+            font-weight: 500;
+            line-height: 50px;
+            font-size: 20px;
+            // color: #999;
+            text-decoration: none;
+            background: #fff;
+            border: 0 solid #d1d1d1;
+            border-bottom: none;
+            height: 50px;
+            padding: 0 15px;
+        } 
+    }
+    .tab-content{
+        .table-detail{
+            width: auto;
+            margin: 0 auto;
+            tr th {
+                font-weight: 500;
+                text-align: right;
+                border-right: 1px solid #ccc;
+                padding: 10px 30px;
+                width: 50%;
+            }
+            tr td {
+                padding: 10px 30px;
+            }
+            .table-items{
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+        .review-title {
+            margin: 0 0 22px;
+            font-weight: 500;
+        }
+        .review-ratings{
+            .rating-summary{
+                .title-rating{
+                    margin-right: 15px
+                }
+                .rating-result i{
+                    color: #fcb800;
+                }
+            }
+        }
+        .reviews{
+            padding: 22px 0;
+            border-bottom: 1px solid #c9c9c9;
+        }
+        .label span::after{
+            content: '*';
+            color: #e02b27;
+            margin: 0 0 0 2px;
+        }
+        .review-product{
+            .review-rating{
+                display: flex;
+                .vote-rating{
+                    unicode-bidi: bidi-override;
+                    direction: rtl;
+                    padding-left: 20px;
+                    i:hover{
+                        transition: 0.5s all;
+                        color:#FFD700;
+                    }
+                    i:hover ~ i:before{
+                         transition: 0.5s all;
+                        color:#fcb800;
+                    }
+                }
+            }
+        }
+    }
+}
