@@ -14,8 +14,10 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-1948">
     <div class="section-title text-center pt-4 pb-5">
-        <h2>HOT DEALS</h2>
-        <h4>SAVE MORE</h4>
+       <div class="tieude">
+            <h2>HOT DEALS</h2>
+        <h4>SAVE MORE</h4>s
+       </div>
     </div>
     <div class="container-main">
         <div class="container-fluid">
@@ -105,6 +107,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>

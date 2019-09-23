@@ -1,12 +1,24 @@
 .type-1948 .section-title h2 {
+  cursor: pointer;
   font-weight: 800;
   letter-spacing: 2px;
   color: #07253F;
+  transition: 0.5s all;
+}
+.type-1948 .section-title h2:hover {
+  color: #f9676b;
+  transition: 0.5s all;
 }
 .type-1948 .section-title h4 {
   font-weight: bold;
   position: relative;
   color: #07253F;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.type-1948 .section-title h4:hover {
+  color: #f9676b;
+  transition: 0.5s all;
 }
 .type-1948 .tab .nav-tabs {
   border: none;
@@ -79,7 +91,16 @@
   overflow: hidden;
 }
 .type-1948 .tab .tab-content .tab-pane .item img {
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   max-width: 100%;
+}
+.type-1948 .tab .tab-content .tab-pane .item img:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 .type-1948 .tab .tab-content .tab-pane .item .location {
   color: #00adef;
@@ -99,7 +120,7 @@
   color: #07253F;
 }
 .type-1948 .tab .tab-content .tab-pane .item h5:hover {
-  color: #00adef;
+  color: #f9676b;
   transition: 0.5s all;
 }
 .type-1948 .tab .tab-content .tab-pane .item h4 {
@@ -113,6 +134,15 @@
 }
 .type-1948 .tab .tab-content .tab-pane .item a:hover {
   background: #00adef;
+}
+.type-1948 .tab .tab-content .tab-pane .item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  max-height: 71px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 .type-1948 .tab .tab-content .tab-pane .item-img {
   margin-top: 30px;

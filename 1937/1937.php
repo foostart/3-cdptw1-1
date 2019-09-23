@@ -25,10 +25,11 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link href="<?php echo $url_path ?>/css/1937.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/star-rating-svg.css" rel="stylesheet" type="text/css"/>
+         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/1937.js" ></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.min.js" ></script>
+                <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/jquery.star-rating-svg.js" ></script>
     </head>
     <body>

@@ -1,24 +1,22 @@
 
 
-            $(document).ready(function () {
-                $('.owl-carousel').owlCarousel({
-                    loop: true,
-                    autoPlay: 100,
-                    autoplay:true,
-                    autoplaySpeed:1000,
-                    nav: true,
-                    navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
-                    responsive: {
-                        0:{
-                            items:1
-                        },
-                        500: {
-                            items: 1
-                        },
-                        769: {
-                            items: 1
-                        }
-                    }
-                })
-            });
-       
+$(document).ready(function () {
+var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+});

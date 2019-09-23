@@ -23,9 +23,9 @@
     <div class="row">
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/1.jpg" class="img-responsive">
+          <img src="./images/1.jpg" class="img-responsive" alt="hinh1">
             <div class="fade-in">
-              <img src="./images/1.jpg" class="img-responsive">
+              <img src="./images/1.jpg" class="img-responsive" alt="hinh2">
                <div class="product-btn row">
                   <div class="product-list">
                       <div class="col-md-4 col-sm-4 col-xs-4">
@@ -53,9 +53,9 @@
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/2.jpg" class="img-responsive">
+          <img src="./images/2.jpg" class="img-responsive" alt="hinh3">
           <div class="fade-in">
-            <img src="./images/2-2.jpg" class="img-responsive">
+            <img src="./images/2-2.jpg" class="img-responsive" alt="hinh4">
                     <div class="product-btn row">
                    <div class="product-list">
                       <div class="col-md-4 col-sm-4 col-xs-4">
@@ -80,9 +80,9 @@
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/3.jpg" class="img-responsive">
+          <img src="./images/3.jpg" class="img-responsive" alt="hinh5">
           <div class="fade-in">
-            <img src="./images/3.jpg" class="img-responsive">
+            <img src="./images/3.jpg" class="img-responsive" alt="hinh6">
 
                 <div class="product-btn row">
                   <div class="product-list">
@@ -108,10 +108,10 @@
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/4.jpg" class="img-responsive">
+          <img src="./images/4.jpg" class="img-responsive" alt="hinh7">
           <span class="sale">-6%</span>
           <div class="fade-in">
-            <img src="./images/4-2.jpg" class="img-responsive">
+            <img src="./images/4-2.jpg" class="img-responsive" alt="hinh8">
               <div class="product-btn row">
                 <div class="product-list">
                   <div class="col-md-4 col-sm-4 col-xs-4">
@@ -140,9 +140,9 @@
       <div class="row">
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/5.jpg" class="img-responsive">
+          <img src="./images/5.jpg" class="img-responsive" alt="hinh9">
             <div class="fade-in">
-              <img src="./images/4-2.jpg" class="img-responsive">
+              <img src="./images/4-2.jpg" class="img-responsive" alt="hinh10">
                 <div class="product-btn row">
                   <div class="product-list">
                       <div class="col-md-4 col-sm-4 col-xs-4">
@@ -170,9 +170,9 @@
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/6.jpg" class="img-responsive">
+          <img src="./images/6.jpg" class="img-responsive" alt="hinh11">
           <div class="fade-in">
-            <img src="./images/2-2.jpg" class="img-responsive">
+            <img src="./images/2-2.jpg" class="img-responsive" alt="hinh12">
                     <div class="product-btn row">
                  <div class="product-list">
                       <div class="col-md-4 col-sm-4 col-xs-4">
@@ -197,10 +197,10 @@
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/7.jpg" class="img-responsive">
+          <img src="./images/7.jpg" class="img-responsive" alt="hinh13">
            <span class="sale">-11%</span>
           <div class="fade-in">
-            <img src="./images/5.jpg" class="img-responsive">
+            <img src="./images/5.jpg" class="img-responsive" alt="hinh14">
                     <div class="product-btn row">
                    <div class="product-list">
                       <div class="col-md-4 col-sm-4 col-xs-4">
@@ -225,10 +225,10 @@
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
-          <img src="./images/2-2.jpg" class="img-responsive">
+          <img src="./images/2-2.jpg" class="img-responsive" alt="hinh15">
            <span class="sale">-11%</span>
           <div class="fade-in">
-            <img src="./images/8-2.jpg" class="img-responsive">
+            <img src="./images/8-2.jpg" class="img-responsive" alt="hinh16">
                     <div class="product-btn row">
                   <div class="product-list">
                       <div class="col-md-4 col-sm-4 col-xs-4">

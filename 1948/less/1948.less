@@ -1,15 +1,26 @@
 .hover(){ background: #f9676b;color: #fff;}
+.hover2(){ color:#f9676b;transition: 0.5s all;}
 .type-1948{
     .section-title{
         h2{
+            cursor: pointer;
             font-weight: 800;
             letter-spacing: 2px;
             color: #07253F;
+             transition: 0.5s all;
+           &:hover{
+                .hover2;
+           }
         }
         h4{
             font-weight: bold;
             position: relative;
             color: #07253F;
+            cursor: pointer;
+            transition: 0.5s all;
+             &:hover{
+                .hover2;
+           }
         }
     }
     .tab{
@@ -83,7 +94,15 @@
                     padding: 18px 0px 20px 0px;
                     overflow: hidden;
                     img{
+                     transition: all 1s ease;
+                            -webkit-transition: all 1s ease;
                         max-width: 100%;
+                        &:hover { transform: scale(1.5);
+                    -webkit-transform: scale(1.5);
+                    -ms-transform: scale(1.5);
+                    -moz-transform: scale(1.5);
+                    -o-transform: scale(1.5);
+                }
                     }
                     .location{
                         color: #00adef;
@@ -101,7 +120,7 @@
                     h5{
                         cursor: pointer;
                         color: #07253F;
-                        &:hover{color:#00adef;transition: 0.5s all;}
+                        &:hover{color:#f9676b;transition: 0.5s all;}
                     }
                     h4{
                         color: #07253F;
@@ -114,6 +133,15 @@
                     }
                     a:hover{
                         background: #00adef;
+                    }
+                    p{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        line-height: 20px;
+                        max-height: 71px;
+                        -webkit-line-clamp: 3;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
                     }
                 }
                 .item-img{

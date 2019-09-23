@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 
     $url_host = 'http://'.$_SERVER['HTTP_HOST'];
@@ -17,10 +18,9 @@
     $less->compileFile('less/1950.less', 'css/1950.css');
     
 ?>
-
-<!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Module-1950</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -29,7 +29,6 @@
          <link href="<?php echo $url_path ?>/css/1950.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/1950.js" ></script>
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
-    
     </head>
     <body>
         <?php include $dir_block.'/1950-content.php'; ?>   
