@@ -26,9 +26,10 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
          <link href="<?php echo $url_path ?>/css/1950.css" rel="stylesheet" type="text/css"/>
-         <link href="<?php echo $url_path ?>/css/1950.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/1950.js" ></script>
-        <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
+          <link href="<?php echo $url_path ?>/css/star-rating-svg.css" rel="stylesheet" type="text/css"/>
+          <script src="<?php echo $url_path ?>/js/1950.js" ></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
+           <script src="<?php echo $url_path ?>/js/jquery.star-rating-svg.js" ></script>
     </head>
     <body>
         <?php include $dir_block.'/1950-content.php'; ?>   

@@ -1,6 +1,11 @@
 .i-type-1950 .cnt-2 {
   margin-top: 20px;
 }
+.i-type-1950 h3:hover {
+  color: #ff8969;
+  cursor: pointer;
+  transition: 0.5s all;
+}
 .i-type-1950 .line-1 {
   text-align: center;
 }
@@ -88,13 +93,14 @@
   visibility: visible;
   opacity: 1;
 }
-.i-type-1950 .nor .product-item i {
-  margin-left: 63px;
+.i-type-1950 .nor .product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .i-type-1950 .nor .product-item a {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
   line-height: 1.4;
   font-weight: 400;
   color: #666;
@@ -102,6 +108,9 @@
 .i-type-1950 .nor .product-item a:hover {
   text-decoration: none;
   color: #FF8969;
+}
+.i-type-1950 .nor .price {
+  text-align: center;
 }
 .i-type-1950 .nor .price .lineThrough {
   cursor: text;
@@ -126,4 +135,41 @@
 .i-type-1950 .nor .fade-in:hover {
   opacity: 1;
   -webkit-transition: opacity 1.0s ease-in;
+}
+.i-type-1950 .rating:not(:checked) > input {
+  display: none;
+}
+.i-type-1950 #like:not(:checked) > label {
+  cursor: pointer;
+  font-size: 1em;
+  color: rgba(0,0,0,0.79);
+}
+.i-type-1950 #like:not(:checked) > label:hover,
+.i-type-1950 #like:not(:checked) > label:hover ~ label {
+  color: rgba(233,54,40,0.6);
+}
+.i-type-1950 #like > input:checked + label:hover,
+.i-type-1950 #like > input:checked + label:hover ~ label,
+.i-type-1950 #like > input:checked ~ label:hover,
+.i-type-1950 #like > input:checked ~ label:hover ~ label,
+.i-type-1950 #like > label:hover ~ input:checked ~ label {
+  color: rgba(233,54,40,0.8);
+}
+.i-type-1950 #like > input:checked ~ label {
+  color: #e93628;
+}
+@media (max-width: 710px) {
+  .i-type-1950 .col-xs-12 {
+    width: 25%;
+  }
+}
+@media (max-width: 400px) {
+  .i-type-1950 .col-xs-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 753px) {
+  .i-type-1950 .col-xs-12 {
+    width: 50%;
+  }
 }

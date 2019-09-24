@@ -4,6 +4,7 @@
 	.cnt-2{
 		margin-top: 20px;
 	}
+	h3:hover{color: #ff8969;cursor: pointer;transition:0.5s all;}
 	.line-1{
 		text-align: center;
 	}
@@ -92,13 +93,14 @@
 				}
 			}
 		}
-		.product-item i{
-			margin-left: 63px;
-		}
+		.product-item{    
+			display: flex;
+   			justify-content: space-between;
+    		align-items: center;
+    	}
 		.product-item a{
 			overflow: hidden;
 		    text-overflow: ellipsis;
-		    white-space: nowrap;
 		    line-height: 1.4;
 		    font-weight: @font-weight;
 		    color: #666;
@@ -107,6 +109,7 @@
 			text-decoration: none;
 			color:#FF8969;
 		}
+		.price{text-align:center;}
 		.price .lineThrough{
 			cursor: text;
 			font-weight: @font-weight;
@@ -133,4 +136,42 @@
 		}
 
 	}
+.rating:not(:checked) > input {
+  display: none;
+}
+
+#like:not(:checked) > label {
+	cursor: pointer;
+	font-size: 1em;
+    color: rgba(0, 0, 0, 0.79)
+}
+#like:not(:checked) > label:hover,
+#like:not(:checked) > label:hover ~ label {
+  color: rgba(233, 54, 40, .6);
+}
+#like > input:checked + label:hover,
+#like > input:checked + label:hover ~ label,
+#like > input:checked ~ label:hover,
+#like > input:checked ~ label:hover ~ label,
+#like > label:hover ~ input:checked ~ label {
+  color: rgba(233, 54, 40, .8);
+}
+#like > input:checked ~ label {
+  color: rgb(233, 54, 40);
+}
+@media (max-width: 710px){
+        .col-xs-12{
+            width: 25%;
+        }
+    }
+@media (max-width: 400px){
+        .col-xs-12{
+            width: 100%;
+        }
+    }
+@media (max-width: 753px){
+        .col-xs-12{
+            width: 50%;
+        }
+    }
 }
