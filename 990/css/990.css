@@ -93,5 +93,5 @@
   align-items: center;
 }
 .swiper-container img {
-  width: 100%;
+  max-width: 100%;
 }

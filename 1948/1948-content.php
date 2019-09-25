@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="section-title text-center pt-4 pb-5">
        <div class="tieude">
             <h2>HOT DEALS</h2>
-        <h4>SAVE MORE</h4>s
+        <h4>SAVE MORE</h4>
        </div>
     </div>
     <div class="container-main">

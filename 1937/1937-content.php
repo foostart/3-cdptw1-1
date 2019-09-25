@@ -16,7 +16,7 @@
                 </ul>
                 <div class="tab-content pt-4">
                     <div class="container tab-pane active" id="details" style="position: relative; overflow: hidden; transition: height 250ms ease-out 0s;">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <h2>Details Duis lobortis massa imperdiet quam</h2>
                             <p>Fusce a quam. Sed in libero ut nibh placerat accumsan. Cras risus ipsum, faucibus ut, ullamcorper id, varius ac, leo. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Suspendisse potenti.</p>
                             <p>Ut leo. Vivamus euismod mauris. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Etiam sit amet orci eget eros faucibus tincidunt. Fusce egestas elit eget lorem.</p>
@@ -76,7 +76,7 @@
                                 </span>
                             </div>    
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-sm-3">
                                     <div class="review-ratings">
                                         <div class="rating-summary">
                                             <span class="title-rating">Quality</span>
@@ -110,7 +110,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-9 col-sm-9">
                                     <div class="review-content">
                                         Martfury is a modern and flexible eCommerce Magento 2 theme. 
                                         This theme is suited for marketplace, electronics store, furniture store, clothing store, hitech store and accessories store… 

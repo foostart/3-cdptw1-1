@@ -7,18 +7,6 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<script type="text/javascript">
-  
-$(document).ready(function(){
-   $(".my-rating-8").starRating({
-        strokeColor: '#894A00',
-        strokeWidth: 10,
-        starSize: 20,
-  });
-});
-
-  
-</script>
 <div class="i-type-1950">
   <div class="container">
     <div class="line-1">
@@ -50,19 +38,20 @@ $(document).ready(function(){
                 </div>
               </div>
             </div>
-            
           </div>
           <div class="product-item nav">
             <a href="#">Animal Box Rhino Areawares</a>
-          <div class="my-rating-8"></div>
+            <div class="stars">
+              <form>
+                <input class="star star-10" id="star-8" type="radio" name="star"/>
+                <label class="star star-10" for="star-8"></label>
+              </form>
+            </div>
           </div>
-          
           <div class="price">
             <span class="real">$120.00</span>-<span class="real">$452.00</span>   
           </div>
-        </div>
-        
-        
+        </div>    
       </div>
       <div class="col-md-3 col-xs-12 col-sm-6">
         <div class="nor">
@@ -85,7 +74,12 @@ $(document).ready(function(){
         </div>
         <div class="product-item">
           <span><a href="#">Animal Box Rhino Areawares</a></i></span>
-            <div class="my-rating-8"></div>
+          <div class="stars">
+            <form>
+              <input class="star star-10" id="star-7" type="radio" name="star"/>
+              <label class="star star-10" for="star-7"></label>
+            </form>
+          </div>
         </div>  
         <div class="price">
           <span class="real">$120.00</span> 
@@ -114,7 +108,12 @@ $(document).ready(function(){
         </div>
         <div class="product-item">
           <span><a href="#">Animal Box Rhino Areawares</a></span>
-           <div class="my-rating-8"></div>
+          <div class="stars">
+            <form>
+              <input class="star star-10" id="star-6" type="radio" name="star"/>
+              <label class="star star-10" for="star-6"></label>
+            </form>
+          </div>
         </div> 
         <div class="price">
           <span class="real">$120.00</span>-<span class="real">$452.00</span>   
@@ -143,7 +142,12 @@ $(document).ready(function(){
         </div>
         <div class="product-item">
           <span><a href="#">Animal Box Rhino Areawares</a></span>
-          <div class="my-rating-8"></div>
+          <div class="stars">
+            <form>
+              <input class="star star-10" id="star-5" type="radio" name="star"/>
+              <label class="star star-10" for="star-5"></label>
+            </form>
+          </div>
         </div>
         <div class="price">
           <span class="lineThrough">$109.00</span><span class="real">$103.00</span>   
@@ -176,7 +180,12 @@ $(document).ready(function(){
           </div>
           <div class="product-item">
             <span><a href="#">Animal Box Rhino Areawares</a></span>
-            <div class="my-rating-8"></div>
+            <div class="stars">
+              <form>
+                <input class="star star-10" id="star-4" type="radio" name="star"/>
+                <label class="star star-10" for="star-4"></label>
+              </form>
+            </div>
           </div>
           <div class="price">
             <span class="real">$120.00</span>  
@@ -206,7 +215,12 @@ $(document).ready(function(){
         </div>
         <div class="product-item">
           <span><a href="#">Animal Box Rhino Areawares</a></span>
-            <div class="my-rating-8"></div>
+          <div class="stars">
+            <form>
+              <input class="star star-10" id="star-3" type="radio" name="star"/>
+              <label class="star star-10" for="star-3"></label>
+            </form>
+          </div>
         </div>
         <div class="price">
           <span class="real">$120.00</span> 
@@ -235,7 +249,12 @@ $(document).ready(function(){
       </div>
       <div class="product-item">
         <span><a href="#">Animal Box Rhino Areawares</a></span>
-       <div class="my-rating-8"></div>
+        <div class="stars">
+          <form>
+            <input class="star star-10" id="star-2" type="radio" name="star"/>
+            <label class="star star-10" for="star-2"></label>
+          </form>
+        </div>
       </div>
       <div class="price">
         <span class="lineThrough">$112.00</span><span class="real">$100.00</span>   
@@ -264,7 +283,12 @@ $(document).ready(function(){
       </div>
       <div class="product-item">
         <span><a href="#">Animal Box Rhino Areawares</a></span>
-      <div class="my-rating-8"></div>
+        <div class="stars">
+          <form>
+            <input class="star star-10" id="star-1" type="radio" name="star"/>
+            <label class="star star-10" for="star-1"></label>
+          </form>
+        </div>
       </div> 
       <div class="price">
         <span class="lineThrough">$112.00</span><span class="real">$100.00</span>   
@@ -273,5 +297,6 @@ $(document).ready(function(){
   </div>
 </div>
 </div>
-</div>
+
+  </div>
 </div>

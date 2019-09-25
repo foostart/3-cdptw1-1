@@ -3,6 +3,9 @@
   padding: 0;
   font-family: segoe ui light;
 }
+.type-1961 #menuduoi {
+  width: 100%;
+}
 .type-1961 .icon {
   visibility: hidden;
 }
@@ -67,7 +70,7 @@
   width: 1000px !important;
   height: 140px;
   margin-top: 40px !important;
-  z-index: 1;
+  z-index: 2;
   left: 13%;
   bottom: -150px;
   background: white;
@@ -87,7 +90,7 @@
   left: -55%;
   width: 1000px !important;
   height: 140px;
-  z-index: 1;
+  z-index: 2;
   background: white;
   box-shadow: 1px 3px 2px rgba(128,128,128,0.46);
   opacity: 0;
@@ -124,6 +127,13 @@
   color: gray;
   background-color: white !important;
 }
+.type-1961 .img-swiper {
+  z-index: 1;
+  text-align: center;
+}
+.type-1961 .img-swiper img {
+  max-width: 100%;
+}
 @media handheld,only screen and (max-width: 767px) {
   .type-1961 .logo img {
     width: 300px;
@@ -136,18 +146,5 @@
     position: absolute;
     left: 0;
     top: 0;
-  }
-  .type-1961 #menuduoi {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-    display: none;
-  }
-  .type-1961 #menuduoi .ring {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
   }
 }
