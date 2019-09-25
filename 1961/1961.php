@@ -18,21 +18,17 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<title>Module-1961</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script href="js/bootstrap.min.js"></script>
-	<script src="js/jquery-3.2.1.js"></script>
+	<link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/1961.css">
-	<script type="text/javascript" src="js/1961.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="<?php echo $url_path ?>/css/1961.css" rel="stylesheet" type="text/css"/>
+	<script src="<?php echo $url_path ?>/js/1961.js" ></script>
+	<script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
 </head>
 <body>
 	<?php include $dir_block.'/1961-content.php'; ?>  

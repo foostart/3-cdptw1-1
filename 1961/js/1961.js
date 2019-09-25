@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementsById("menuduoi");
+  var x = document.getElementsById(".menuduoi");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

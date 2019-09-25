@@ -86,16 +86,37 @@
 .type-1937 .tab-content .review-product .review-rating {
   display: flex;
 }
-.type-1937 .tab-content .review-product .review-rating .vote-rating {
+.type-1937 .tab-content .review-product .review-rating div.stars {
   unicode-bidi: bidi-override;
   direction: rtl;
-  padding-left: 20px;
+  width: 270px;
+  display: inline-block;
+  padding-right: 60px;
 }
-.type-1937 .tab-content .review-product .review-rating .vote-rating i:hover {
-  transition: 0.5s all;
-  color: #FFD700;
+.type-1937 .tab-content .review-product .review-rating input.star {
+  display: none;
 }
-.type-1937 .tab-content .review-product .review-rating .vote-rating i:hover ~ i:before {
-  transition: 0.5s all;
-  color: #fcb800;
+.type-1937 .tab-content .review-product .review-rating label.star {
+  padding: 0px 3px 0px 10px;
+  color: #444;
+  transition: all .2s;
+}
+.type-1937 .tab-content .review-product .review-rating input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+.type-1937 .tab-content .review-product .review-rating input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+.type-1937 .tab-content .review-product .review-rating input.star-1:checked ~ label.star:before {
+  color: #F62;
+}
+.type-1937 .tab-content .review-product .review-rating label.star:hover {
+  transform: rotate(-15deg) scale(1.3);
+}
+.type-1937 .tab-content .review-product .review-rating label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
 }
