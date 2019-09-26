@@ -24,14 +24,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
 	<link href="<?php echo $url_path ?>/css/1961.css" rel="stylesheet" type="text/css"/>
-	<script src="<?php echo $url_path ?>/js/1961.js" ></script>
 	<script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js" ></script>
-    <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
-    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
 </head>
 <body>
 	<?php include $dir_block.'/1961-content.php'; ?>  
+    <script src="<?php echo $url_path ?>/js/1961.js" ></script>
 </body>
 </html>

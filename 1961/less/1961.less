@@ -3,18 +3,13 @@
     padding: 0;
     font-family: segoe ui light;
     #menuduoi{width: 100%;}
-    .icon {
-        visibility: hidden;
-    }
     .logo {
         text-align: center;
         padding-top: 20px;
     }
     a.navbar-brand {
+        cursor: pointer;
         padding-left: 170px;
-    }
-    .trendau {
-        height: 0 !important;
     }
     .select {
         line-height: 40px;
@@ -22,14 +17,14 @@
         position: relative;
     }
     a {
+        cursor: pointer;
         text-decoration: none !important;
     }
     li.zz {
-        width: 19%;
+        width: 20%;
     }
     ul li {
         padding-left: 20px;
-        padding-top: 10px;
         list-style-type: none;
     }
     .hinhvohang {
@@ -51,31 +46,27 @@
         opacity: 0.3;
     }
     .Earrings {
+
         position: relative;
-        margin-left: 140px;
+
     }
     .Earrings:hover .muitenmenu {
         opacity: 1;
     }
-    .nutmenu {
-        border: none !important;
-        color: black !important;
-        background: none !important;
-    }
     .noidungnho {
+        top: 100%;
         position: absolute !important;
-        width: 1000px !important;
-        height: 140px;
-        margin-top: 40px !important;
+        width: 1000px;
+        height: 156px;
         z-index: 2;
-        left: 13%;
-        bottom: -150px;
-        background: white;
+        left: 35%;
+        background: #ddddddbf;
         opacity: 0;
         visibility: hidden;
         box-shadow: 1px 3px 2px rgba(128,128,128,0.46);
     }
     .Earrings:hover .noidungnho {
+        transition: 0.5s all;
         opacity: 1;
         visibility: visible;
     }
@@ -85,8 +76,8 @@
     .noidungmenunho {
         position: absolute !important;
         left: -55%;
-        width: 1000px !important;
-        height: 140px;
+        width: 100%;
+        height: 156px;
         z-index: 2;
         background: white;
         box-shadow: 1px 3px 2px rgba(128,128,128,0.46);
@@ -109,25 +100,15 @@
         margin-right: 13px;
     }
     .all {
+        cursor: pointer;
         font-size: 14px;
         font-weight: 700;
         color: black;
         background: none !important;
     }
-    .noidungmenu {
-        height: 400px;
-        background-color: whitesmoke;
-        position: relative;
-        width: 100%;
-    }
     .ring:hover {
         color: gray;
         background-color: white !important;
-    }
-    .img-swiper{
-        z-index: 1;
-        text-align: center;
-        img{max-width: 100%;}
     }
 }
 @media handheld,only screen and (max-width: 767px) {
@@ -145,4 +126,32 @@
             top: 0;
         }
     }
+}
+@media (min-width: 768px){
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+    }
+}
+@media (max-width: 492px){
+    li.zz {
+        width: 100%;
+    }
+    .type-1961 
+    {
+        .noidungnho{
+            color: white;
+            width: 100%;
+            left: 0px !important;
+            background: #777;
+            opacity: 0;
+            visibility: hidden;
+            box-shadow: 1px 3px 2px rgba(128,128,128,0.46);
+        }
+        .menu {
+            border-top: 1px solid #fcf8e3;
+        }
+        .All{margin: 0px;}
+    }
+
 }

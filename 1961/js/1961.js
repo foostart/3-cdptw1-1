@@ -1,8 +1,19 @@
-function myFunction() {
-  var x = document.getElementsById(".menuduoi");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+$(document).ready(function () {
+    $('.navbar-nav li').hover(
+            function () {
+                if ($(this).hasClass('dropdown'))
+                {
+                    $(this).addClass('open');
+                    $(this).chirldren().attr('aria-expanded', true);
+                }
+            },
+            function () {
+                if ($(this).hasClass('dropdown'))
+                {
+                    $('.navbar-nav li.open').removeClass('open');
+                    $(this).chirldren().attr('aria-expanded', false);
+                }
+            }
+    );
+
+});
