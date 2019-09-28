@@ -20,7 +20,6 @@ $less->compileFile('less/1948.less', 'css/1948.css');
     <title>Module-1948</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/fontawesome.css" rel="stylesheet" type="text/css"/>
@@ -28,8 +27,6 @@ $less->compileFile('less/1948.less', 'css/1948.css');
     <link href="<?php echo $url_path ?>/css/1948.css" rel="stylesheet" type="text/css"/>
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
     <script src="<?php echo $url_path ?>/js/1948.js" ></script>
-    <script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js" ></script>
-    <script src="<?php echo $url_path ?>/js/popper.min.js" ></script>
 </head>
 <body>
     <?php include './1948-content.php'; ?>
